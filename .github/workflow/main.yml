@@ -1,0 +1,12 @@
+name: First Workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    run-on:  ubuntu-latest
+    steps: 
+      -name:  Welcome to Github actions
+       run:  echo "my first github"
+      -name:  Second step in github actions
+       run:  echo "this is second job"
+       
+  
